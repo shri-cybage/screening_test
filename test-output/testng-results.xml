@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43327" started-at="2016-09-27T12:22:34Z" finished-at="2016-09-27T12:23:17Z">
+    <groups>
+    </groups>
+    <test name="ToolsQA" duration-ms="43327" started-at="2016-09-27T12:22:34Z" finished-at="2016-09-27T12:23:17Z">
+      <class name="com.tests.ScreeningTest1">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:com.tests.ScreeningTest1@523884b2]" name="initDriver" is-config="true" duration-ms="14166" started-at="2016-09-27T17:52:34Z" finished-at="2016-09-27T17:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://store.demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tests.ScreeningTest1@523884b2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-09-27T17:52:48Z" finished-at="2016-09-27T17:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="VerifyIphoneOrderPrice()[pri:0, instance:com.tests.ScreeningTest1@523884b2]" name="VerifyIphoneOrderPrice" duration-ms="28913" started-at="2016-09-27T17:52:48Z" finished-at="2016-09-27T17:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIphoneOrderPrice -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.tests.ScreeningTest1@523884b2]" name="afterClass" is-config="true" duration-ms="227" started-at="2016-09-27T17:53:17Z" finished-at="2016-09-27T17:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.tests.ScreeningTest1 -->
+    </test> <!-- ToolsQA -->
+  </suite> <!-- Suite -->
+</testng-results>

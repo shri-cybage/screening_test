@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="appURL" value="http://store.demoqa.com/"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="ToolsQA(failed)">
+    <parameter name="appURL" value="http://store.demoqa.com/"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.tests.VerifyEmptyCartTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="VerifyEmptyCartMessage"/>
+          <include name="initDriver"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.tests.VerifyEmptyCartTest -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Suite] -->
